@@ -195,7 +195,7 @@ for epoch in range(args.max_epoch):
         batchpred_dec1, batchpred_dec2, _, _, _, _ = bi_stat(batchX, SE, batchTE, flag='val')
         valPred_dec1.append(batchpred_dec1.detach().cpu().numpy())
         valPred_dec2.append(batchpred_dec2.detach().cpu().numpy())
-        batchloss = model.mae_loss(batchpred1, batchlabel1, device)
+        batchloss = model.mae_loss(batchpred_dec1, batchlabel1, device)
         val_loss += batchloss.item() * (end_idx - start_idx)
 
     end_val = time.time()
@@ -302,7 +302,7 @@ utils.log_string(log, 'test             %.2f\t\t%.2f\t\t%.2f%%' %
 utils.log_string(log, 'performance in each prediction step')
 
 MAE, RMSE, MAPE = [], [], []
-for q in range(args.Q):
+for q in range(args.F):
     mae, rmse, mape = utils.metric(testPred[:, q], testY[:, q])
     MAE.append(mae)
     RMSE.append(rmse)
