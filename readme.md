@@ -2,7 +2,9 @@
 
 ## Introduction
 
-we propose a Bidirectional Spatial-Temporal Adaptive Transformer (Bi-STAT) for accurate traffic forecasting. Bi-STAT adopts an encoder-decoder architecture, where both the encoder and the decoder maintain a spatial-adaptive Transformer and a temporal-adaptive Transformer structure. 
+we propose a Bidirectional Spatial-Temporal Adaptive Transformer (Bi-STAT) for accurate traffic forecasting. 
+Bi-STAT adopts an encoder-decoder architecture, where both the encoder and the decoder maintain a spatial-adaptive 
+Transformer and a temporal-adaptive Transformer structure. 
 
 ## Requirements
 
