@@ -6,6 +6,13 @@ Existing traffic forecasting methods focus on spatial-temporal dependency modeli
 ## Framework
 ![Architecture of the Bi-STAT](https://github.com/chenchl19941118/Bi-STAT/assets/25497533/fc56f193-6b2b-4777-9b82-612a3cc7265b)
 
+The framework of the Bidirectional Spatial-Temporal Adaptive Transformer (Bi-STAT). Bi-STAT consists of an encoder, a prediction decoder, and
+a recollection decoder. In both the encoder and prediction decoder, we realize the task-adaptive computation (spatially and temporally) by the recurrent
+mechanism with a novel Dynamic Halting Module (DHM). The recollection decoder performs the past reconstruction task to provide extra context information
+and regularize the future prediction model.
+
+## Results
+
 ## Requirements
 
 Python 3.7.3   
