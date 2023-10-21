@@ -13,10 +13,10 @@ and regularize the future prediction model.
 
 ## Results
 ![image](https://github.com/chenchl19941118/Bi-STAT/assets/25497533/e6269451-bec6-4ba2-8042-537028a50a44)
+
+## Visualization
 ![image](https://github.com/chenchl19941118/Bi-STAT/assets/25497533/914db691-7ea7-48b1-949b-c9cb5e71c4bd)
 ![image](https://github.com/chenchl19941118/Bi-STAT/assets/25497533/f4beedf0-b148-451c-a278-7db6abcb068f)
-
-
 
 ## Requirements
 
